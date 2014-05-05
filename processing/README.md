@@ -21,7 +21,7 @@ These kits contain basecode to get you started on programming simple demos with 
 
 - [ ] import basic-2d code from previous repository
 - [ ] implement GNU Rocket integration in Processing
-- [ ] code basic-3d -examples
-- [ ] find and add more helpful links on this page
+- [ ] code basic-3d -examples
+- [ ] find and add more helpful links on this page
 - [ ] give a quick rundown on Processing's core (how everything works)
 
