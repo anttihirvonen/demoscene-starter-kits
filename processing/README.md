@@ -16,6 +16,7 @@ These kits contain basecode to get you started on programming simple demos with 
 
  * [Processing 2+ Language Reference](http://processing.org/reference/)
  * [Examples](http://processing.org/examples/)
+ * [Moonlander, GNU Rocket integration library for Processing](http://github.com/anttihirvonen/moonlander)
 
 ## TODO
 
