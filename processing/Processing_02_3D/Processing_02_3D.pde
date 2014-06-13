@@ -7,10 +7,13 @@
  * - Drawing plane and sphere primitives
  * - 3D-transformations
  */
+ 
+int CANVAS_WIDTH = 480;
+int CANVAS_HEIGHT = 360;
 
 void setup() {
   // The P3D parameter enables accelerated 3D rendering.
-  size(1280, 720, P3D); 
+  size(CANVAS_WIDTH, CANVAS_HEIGHT, P3D);
   rectMode(CENTER);
 }
 
