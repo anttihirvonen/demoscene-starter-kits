@@ -62,8 +62,8 @@ void setup() {
   size(CANVAS_WIDTH, CANVAS_HEIGHT, P2D);
 
   // Drawing options that don't change, modify as you wish
+  frameRate(60);
   noStroke();
-  frameRate(30);
   fill(255);
   smooth();
 
