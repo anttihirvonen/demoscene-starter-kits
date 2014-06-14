@@ -1,16 +1,20 @@
 # Gettings started with Processing
 
-These kits contain basecode to get you started on programming simple demos with [Processing](http://www.processing.org) (version 2). All of the kits use Minim (bundled with Processing) for playing music. Syncinc with music is done either in code or by using [GNU Rocket](https://github.com/kusma/rocket), a tool
- made for syncinc demoscene productions.
+These kits contain basecode to get you started on programming simple demos with [Processing](http://www.processing.org) (version 2). All of the kits use Minim (bundled with Processing) for playing music. Syncing with music is done either in code or by using [GNU Rocket](https://github.com/kusma/rocket), a tool made for syncing demoscene productions.
+
+In addition to the barebone kits, some examples are provided.
 
 ## Available kits
 
- All kits include some example drawing code to get you started. Basic kits don't utilize shaders but limit to standard Processing API (see [reference](http://www.processing.org/reference/)).
+These kits are barebone examples of how to start demo development. If you wan't a clean start for your demo, choose one of these. 
 
- * *basic-2d*: Draw accelerated resolution-independent 2D-graphics. If you're just starting out, this is the kit you should choose.
- * *basic-2d-rocket*: Same as above, but integrates with GNU Rocket for syncing. If you start with above, you can later integrate the syncing code.
- * *basic-3d*: Draw accelerated 3D-graphics.
- * *basic-3d-rocket*: Same as above with GNU Rocket integration.
+* **[Processing_Demobase](Processing_Demobase)**: Basecode for demo development without bells and whistles. 
+* **Processing_Demobase_Moonlander**: Basecode for demo development with GNU Rocket and Moonlander. (coming up)
+
+## Examples
+
+* **[Processing_01_Basics](Processing_01_Basics)**: Shows you how to draw accelerated resolution-independent 2D-graphics by using Processing's API. If you're just starting out, you should use this as a base for your demo instead of one of the barebone kits.
+* **[Processing_02_3D](Processing_02_3D)**: Example of how to draw 3D-graphics.
 
 ## Links
 
