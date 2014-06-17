@@ -54,6 +54,7 @@ void draw() {
   shader.set("iGlobalTime", (float)moonlander.getCurrentTime());
   shader.set("grid_rotation", (float)moonlander.getValue("grid_rotate"));
   shader.set("grid_resolution", (float)moonlander.getValue("grid_resolution"));
+  shader.set("grid_distort", (float)moonlander.getValue("grid_distort"));
 
   // Draw full-screen effect
   rect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);

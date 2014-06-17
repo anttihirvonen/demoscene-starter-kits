@@ -7,6 +7,7 @@ uniform vec2 iResolution;
 // to pass any data to shader, 
 // eg. values from Rocket.
 uniform float grid_rotation;
+uniform float grid_distort;
 uniform float grid_resolution;
 
 vec2 rotate(vec2 v, float a) {
@@ -23,9 +24,9 @@ void main(void) {
     vec2 coord = (2.* gl_FragCoord.xy / iResolution - 1.) * vec2(aspect_ratio, 1.);
 
     coord *= grid_resolution;
-    coord = rotate(coord, grid_rotation);
+    coord = rotate(coord, grid_rotation*(1.+grid_distort*length(coord)));
 
-    float grid_factor = sin(coord.x*10.) * cos(coord.y*10.);
+    float grid_factor = cos(coord.x*10.) * cos(coord.y*10.);
 
     vec3 color = mix(vec3(1., 0.6, 0.7), vec3(.2, 0.1, 0.1), (1.+grid_factor)*0.5);
 
