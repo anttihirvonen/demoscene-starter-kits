@@ -43,6 +43,10 @@ You can do one of the following:
 Remember: the idea is to just provide a starting point and tips for the interested and help them begin the development – you don't need to document **everything** there is. Any guidelines are more than appreciated!
 
 
++## Technical notes
++
++The Minim library may not be installed which will result in a library not found error.Follow the instructions here to install https://github.com/ddf/Minim
+
 ## What is demoscene?
 
 From [Wikipedia](http://en.wikipedia.org/wiki/Demoscene): 
