@@ -11,9 +11,12 @@
 int CANVAS_WIDTH = 480;
 int CANVAS_HEIGHT = 360;
 
-void setup() {
+void settings() {
   // The P3D parameter enables accelerated 3D rendering.
   size(CANVAS_WIDTH, CANVAS_HEIGHT, P3D);
+}
+
+void setup() {
   rectMode(CENTER);
 }
 
