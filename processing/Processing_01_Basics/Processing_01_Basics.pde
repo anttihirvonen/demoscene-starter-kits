@@ -50,6 +50,7 @@ void setupAudio() {
   // Uncomment this if you want the demo to start instantly
   // song.play();
 }
+
 /*
  * Function settings() must be used when calling size with variable height and width
  * New in processing 3

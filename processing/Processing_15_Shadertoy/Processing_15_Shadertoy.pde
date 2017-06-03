@@ -18,10 +18,12 @@ Moonlander moonlander;
 
 PShader shader;
 
-
-void setup() {
+void settings() {
   // Set up the drawing area size and renderer (P2D / P3D).
   size(CANVAS_WIDTH, CANVAS_HEIGHT, P2D);
+}
+
+void setup() {
   frameRate(60);
 
   // Load pixel shader from given file under data/
