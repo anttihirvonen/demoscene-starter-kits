@@ -28,6 +28,15 @@ int SONG_SKIP_MILLISECONDS = 2000;
 Minim minim;
 AudioPlayer song;
 
+/*
+ * settings() must be used when calling size with variable height and width
+ * New in processing 3
+ */
+void settings() {
+  // Set up the drawing area size and renderer (P2D / P3D).
+  size(CANVAS_WIDTH, CANVAS_HEIGHT, P2D);
+}
+
 
 /*
  * Processing's setup method.
@@ -35,8 +44,6 @@ AudioPlayer song;
  * Do all your one-time setup routines in here.
  */
 void setup() {
-  // Set up the drawing area size and renderer (P2D / P3D).
-  size(CANVAS_WIDTH, CANVAS_HEIGHT, P2D);
   frameRate(60);
 
   // Your setup code

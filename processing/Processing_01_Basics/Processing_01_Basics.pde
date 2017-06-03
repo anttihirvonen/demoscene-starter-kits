@@ -21,8 +21,8 @@ import ddf.minim.effects.*;
 // These control how big the opened window is.
 // Before you release your demo, set these to 
 // full HD resolution (1920x1080).
-int CANVAS_WIDTH = 480;
-int CANVAS_HEIGHT = 360;
+final int CANVAS_WIDTH = 480;
+final int CANVAS_HEIGHT = 360;
 
 // You can skip backwards/forwards in your demo by using the 
 // arrow keys; this controls how many milliseconds you skip
@@ -52,15 +52,21 @@ void setupAudio() {
 }
 
 /*
+ * Function settings() must be used when calling size with variable height and width
+ * New in processing 3
+ */
+void settings() {
+  // Set up the drawing area size and renderer (usually P2D or P3D,
+  // respectively for accelerated 2D/3D graphics).
+  size(CANVAS_WIDTH, CANVAS_HEIGHT, P2D);
+}
+
+/*
  * Processing's setup method.
  *
  * Do all your one-time setup routines in here.
  */
 void setup() {
-  // Set up the drawing area size and renderer (usually P2D or P3D,
-  // respectively for accelerated 2D/3D graphics).
-  size(CANVAS_WIDTH, CANVAS_HEIGHT, P2D);
-
   // Drawing options that don't change, modify as you wish
   frameRate(60);
   noStroke();
@@ -169,4 +175,3 @@ void keyPressed() {
     print(song.position() + ", ");
   }
 }
-
