@@ -21,6 +21,14 @@ int CANVAS_HEIGHT = 360;
 // Our public Moonlander instance
 Moonlander moonlander;
 
+/*
+ * settings() must be used when calling size with variable height and width
+ * New in processing 3
+ */
+void settings() {
+  // Set up the drawing area size and renderer (P2D / P3D).
+  size(CANVAS_WIDTH, CANVAS_HEIGHT, P2D);
+}
 
 /*
  * Processing's setup method.
@@ -28,8 +36,6 @@ Moonlander moonlander;
  * Do all your one-time setup routines in here.
  */
 void setup() {
-  // Set up the drawing area size and renderer (P2D / P3D).
-  size(CANVAS_WIDTH, CANVAS_HEIGHT, P2D);
   frameRate(60);
 
   // Parameters: 
@@ -61,4 +67,3 @@ void draw() {
  * No playback controls as in Processing_Demobase;
  * Rocket controls playing
  */
-
