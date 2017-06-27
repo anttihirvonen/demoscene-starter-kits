@@ -45,7 +45,7 @@ Remember: the idea is to just provide a starting point and tips for the interest
 
 ## Technical notes
 
-The Minim library may not be installed which will result in a library not found error.Follow the instructions here to install https://github.com/ddf/Minim
+The Minim library may not be installed which will result in a library not found error. Follow the instructions here to install https://github.com/ddf/Minim
 
 ## What is demoscene?
 
