@@ -6,7 +6,7 @@ In addition to the barebone kits, some examples are provided.
 
 ## Available kits
 
-These kits are barebone examples of how to start demo development. If you wan't a clean start for your demo, choose one of these. 
+These kits are barebone examples of how to start demo development. If you want a clean start for your demo, choose one of these. 
 
 * **[Processing_Demobase](Processing_Demobase)**: Basecode for demo development without bells and whistles. 
 * **Processing_Demobase_Moonlander**: Basecode for demo development with GNU Rocket and Moonlander. (coming up)
